@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Johncat Project | Contact" />
+    <meta name="author" content="Johncat Team" />
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Johncat | Contact" />
+    <meta property="og:description" content="description description description" />
+    <meta property="og:url" content="https://johncat.co.uk/contact.html" />
+    <meta property="og:image" content="https://images.pexels.com/photos/583846/pexels-photo-583846.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Johncat | Contact" />
+    <meta name="twitter:description" content="description description description" />
+    <meta name="twitter:image" content="https://images.pexels.com/photos/583846/pexels-photo-583846.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+    <meta name="twitter:url" content="https://johncat.co.uk/contact.html" />
+
+    <title>johncat | Contact</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="https://johncat.co.uk/wp-content/uploads/2018/11/cropped-37772683.png">
+    <script src="https://kit.fontawesome.com/243f54795c.js"></script>
+</head>
+<body cz-shortcut-listen="true">
+<header th:replace="elements/header :: header"></header>
+<main>
+    <img class="header-img" src="assets/headerBanner.png">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <div class="contact-main">
+                    <h3 class="heading-text">Contact</h3>
+                    <p>
+                        If for whatever reason, you need to contact us, try us on these methods.
+                    </p>
+                    <div class="row contact-row">
+                        <div class="col-2"></div>
+                        <div class="col-10">
+                            Discord is probably the best way to contact any of us, below our the public servers you can find us on.
+                        </div>
+                    </div>
+                    <div class="row contact-row">
+                        <div class="col-2"></div>
+                        <div class="col-10">
+                            Something something something
+                        </div>
+                    </div>
+                    <div class="row contact-row">
+                        <div class="col-2"></div>
+                        <div class="col-10">
+                            Something something something
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+</main>
+<footer class="page-footer light-bg font-small pt-4">
+    <div class="container-fluid text-center text-md-left">
+        <div class="row">
+            <div class="col-md-6 mt-md-0 mt-3">
+                <h5 class="heading-text">Johncat - University of Glasgow</h5>
+                <p>we make stuff</p>
+            </div>
+            <hr class="clearfix w-100 d-md-none pb-3">
+            <div class="col-md-3 mb-md-0 mb-3">
+                <h5 class="heading-text">Links</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="https://discord.gg/QG2z2au">Discord</a>
+                    </li>
+                    <li>
+                        <a href="#!">Link 2</a>
+                    </li>
+                    <li>
+                        <a href="#!">Link 3</a>
+                    </li>
+                    <li>
+                        <a href="#!">Link 4</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 mb-md-0 mb-3">
+                <h5 class="heading-text">Links</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#!">Link 1</a>
+                    </li>
+                    <li>
+                        <a href="#!">Link 2</a>
+                    </li>
+                    <li>
+                        <a href="#!">Link 3</a>
+                    </li>
+                    <li>
+                        <a href="#!">Link 4</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright text-center py-3">© 2018 - 2019 Copyright:
+        Johncat Team
+    </div>
+</footer>
+<script src="main.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+    $(window).scroll(function(){
+        $('.nav-bg').toggleClass('scrolled', $(this).scrollTop() > 64.8);
+        $('.scroll-link').toggleClass('scrolled', $(this).scrollTop() > 64.8);
+        $('.navbar-toggler').toggleClass('scrolled', $(this).scrollTop() > 64.8);
+        $('.navbar-toggler-icon').toggleClass('scrolled', $(this).scrollTop() > 64.8);
+        $('.show').toggleClass('scrolled', $(this).scrollTop() > 64.8);
+    });
+</script>
+</body>
+</html>
